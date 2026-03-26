@@ -10,7 +10,7 @@ from my_llm import dashscope_llm
 
 # 选择“翻译官” (Embedding)
 embeddings_model =  DashScopeEmbeddings(
-    model="text-embedding-v3",
+    model="text-embedding-v4",
     dashscope_api_key=DASHSCOPE_API_KEY
 )
 # 加载文档
